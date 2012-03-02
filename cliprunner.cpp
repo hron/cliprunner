@@ -99,7 +99,7 @@ void cliprunner::match(Plasma::RunnerContext &context) {
 void cliprunner::run(const Plasma::RunnerContext &context, const Plasma::QueryMatch &match)
 {
   Q_UNUSED(context)
-  //Copy words to clipboard
+  // Copy clip string to clipboard.
   kapp->clipboard()->setText(match.data().toString());
 }
 
