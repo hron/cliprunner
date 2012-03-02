@@ -54,8 +54,6 @@ void cliprunner::hotkeyTrigger() {
 }
 
 void cliprunner::match(Plasma::RunnerContext &context) {
-  kDebug() << "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
-
   QString term = context.query();
 
   if (term.length() < 3)
