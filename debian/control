@@ -9,6 +9,5 @@ Homepage: https://github.com/hron/cliprunner
 Package: plasma-runner-cliprunner
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Simple krunner plugin to access the clipboard.
-
-Simple krunner plugin to access the clipboard.
+Description: Simple krunner plugin to access the clipboard
+ Simple krunner plugin to access the clipboard.
