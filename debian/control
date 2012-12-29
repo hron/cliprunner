@@ -3,11 +3,12 @@ Section: kde
 Priority: optional
 Maintainer: Aleksei Gusev <aleksei.gusev@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), cmake, pkg-kde-tools (>= 0.5.0)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: https://github.com/hron/cliprunner
 
 Package: plasma-runner-cliprunner
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Simple krunner plugin to access the clipboard
- Simple krunner plugin to access the clipboard.
+ This is a plugin for KRunner which searches through your clipboard history and
+ allows you to copy any previosly copied text.
